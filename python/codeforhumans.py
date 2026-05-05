@@ -40,7 +40,7 @@ if ask_for_age_int >= voting_age:
         residency = input('Do you have residence in the country? (yes/no)\n').lower().strip()
         
         if residency == 'yes':
-            print(f'Congratulations you ({name}) can vote in New Zealand!')
+            print(f'Congratulations {name} you can vote in New Zealand!')
             break
         
         elif residency == 'no':
